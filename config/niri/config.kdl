@@ -36,18 +36,10 @@ input {
 
     trackpoint {
         // off
-        // natural-scroll
         accel-speed 0.1
-        // accel-profile "flat"
-        // scroll-method "on-button-down"
-        // scroll-button 273
-        // scroll-button-lock
-        // middle-emulation
     }
 
     warp-mouse-to-focus
-    // Setting max-scroll-amount="0%" makes it work only on windows already fully on screen.
-    // focus-follows-mouse max-scroll-amount="0%"
 }
 
 cursor{
@@ -55,9 +47,6 @@ cursor{
     xcursor-size 24
 }
 
-// You can configure outputs by their name, which you can find
-// by running `niri msg outputs` while inside a niri instance.
-// Find more information on the wiki:
 // https://yalter.github.io/niri/Configuration:-Outputs
 output "eDP-1" {
     // Uncomment this line to disable this output.
@@ -103,15 +92,10 @@ layout {
     focus-ring {
         // off
         width 1
-        active-color "#4F5B58"
+        active-color "#616b69"
         inactive-color "#2E383C"
 
-        // You can also use gradients. They take precedence over solid colors.
         // active-gradient from="#80c8ff" to="#c7ff7f" angle=45
-
-        // You can also color the gradient relative to the entire view
-        // of the workspace, rather than relative to just the window itself.
-        // To do that, set relative-to="workspace-view".
         // inactive-gradient from="#505050" to="#808080" angle=45 relative-to="workspace-view"
     }
 
@@ -161,7 +145,7 @@ prefer-no-csd
 spawn-at-startup "waybar"
 spawn-at-startup "swaync"
 // spawn-at-startup "swaybg" "-c 2E383C"
-spawn-at-startup "swaybg" "-i ~/Pictures/Backgrounds/everforest-astro.png -m fill"
+spawn-sh-at-startup "swaybg -i ~/Pictures/Backgrounds/mist_forest_1.png -m fill"
 hotkey-overlay {
     skip-at-startup
 }

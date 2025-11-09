@@ -6,7 +6,7 @@ set $right l
 set $term alacritty
 set $menu fuzzel
 
-output * bg ~/Pictures/Backgrounds/everforest-astro.png fill
+output * bg ~/Pictures/Backgrounds/mist_forest_1.png fill
 #exec_always swaybg -c 2E383C
 
 # Example configuration:
