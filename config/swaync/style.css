@@ -3,6 +3,7 @@
  */
 
 @define-color cc-bg #272E33;
+/* @define-color cc-bg rgba(39, 46, 51, 0.9); */
 @define-color noti-border-color #2E383C;
 @define-color noti-bg #414B50;
 @define-color noti-bg-darker #374145;

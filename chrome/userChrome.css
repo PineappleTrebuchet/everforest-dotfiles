@@ -19,8 +19,8 @@ by Miguel Avila
 */
 
 :root {
-  --sfwindow: #1E2326 !important;
-  --sfsecondary: #272E33!important;
+  --sfwindow: #272E33 !important;
+  --sfsecondary: #2E383C !important;
 }
 
 /* Urlbar View */
@@ -139,7 +139,7 @@ by Miguel Avila
 
 /* Url Bar  */
 #urlbar-input-container {
-  background-color: var(--sfsecondary) !important;
+  /* background-color: var(--sfsecondary) !important; */
   border: 1px solid rgba(0, 0, 0, 0) !important;
 }
 

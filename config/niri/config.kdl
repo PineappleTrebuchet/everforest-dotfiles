@@ -160,8 +160,8 @@ layout {
 prefer-no-csd
 spawn-at-startup "waybar"
 spawn-at-startup "swaync"
-spawn-at-startup "swaybg" "-c 2E383C"
-
+// spawn-at-startup "swaybg" "-c 2E383C"
+spawn-at-startup "swaybg" "-i ~/Pictures/Backgrounds/everforest-astro.png -m fill"
 hotkey-overlay {
     skip-at-startup
 }

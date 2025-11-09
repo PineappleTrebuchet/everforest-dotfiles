@@ -1,6 +1,8 @@
 @define-color font-color #D3C6AA;
 @define-color black #272e33;
+/* @define-color black rgba(39, 46, 51, 0.9); */
 @define-color grey #2E383C;
+/* @define-color grey rgba(55, 65, 69, 0.8); */
 
 @define-color red #E67E80;
 @define-color orange #E69875;
@@ -29,7 +31,7 @@ tooltip {
 }
 
 #workspaces {
-	margin: 0px 0px 0px 0px;
+	margin: 0px 2px 0px 0px;
 	padding: 0px 0px 0px 0px;
 }
 

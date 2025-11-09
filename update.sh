@@ -26,5 +26,6 @@ cp ~/.config/waybar config/ -r
 cp ~/.config/wlogout config/ -r
 cp ~/.config/pavucontrol.ini config/
 
-cp ~/.icons/* icons/ -r
-cp ~/.themes/* themes/ -r
+#cp ~/.icons/* icons/ -r
+cp ~/.icons/oomox-everforest-dark-hard icons/ -r
+cp ~/.themes/oomox-everforest-dark-hard themes/ -r
