@@ -3,7 +3,7 @@
 "position": "top",
 "height": 30,
 
-"modules-left": ["idle_inhibitor", "sway/workspaces", "niri/workspaces", "sway/scratchpad", "tray", "sway/mode", "sway/window"],
+"modules-left": ["idle_inhibitor", "sway/workspaces", "niri/workspaces", "sway/scratchpad", "tray", "sway/mode", "sway/window", "niri/window"],
 "modules-center": ["clock"],
 "modules-right": ["power-profiles-daemon", "network", "memory", "cpu", "temperature", "backlight", "pulseaudio", "battery"],	
 
@@ -39,7 +39,11 @@
     "tooltip": false,
     //"max-length": 60
 },
-
+"niri/window": {
+    "format": "{}",
+    "tooltip": false,
+    //"max-length": 60
+},
 "tray": {
     "icon-size": 18,
     "spacing": 13
@@ -129,7 +133,7 @@
 //this cava module for some reason causes my CPU temperature to explode
 "custom/cava": {
     "format": "{}",
-    "exec": "~/.config/waybar/cava.sh"
+    "exec": "~/.config/waybar/scripts/cava.sh"
 },
 
 "idle_inhibitor": {

@@ -24,10 +24,10 @@
 }
  
 .control-center .notification-row:focus,
-/* .control-center .notification-row:hover {
+.control-center .notification-row:hover {
     opacity: 1;
     background: @noti-bg-darker;
-} */
+}
  
 .notification-row {
     outline: none;
@@ -65,13 +65,12 @@
     border: none;
 }
  
-/* .notification-action {
+.notification-action {
     color: @text-color;
-    border: 1px solid #85796f;
     border-top: none;
     border-radius: 0px;
-    background: #32302F;
-} */
+    background: @noti-bg;
+}
  
 .notification-default-action:hover,
 .notification-action:hover {
@@ -131,10 +130,10 @@
     border-radius: 0px;
 }
  
-/* .widget-title>button:hover {
+.widget-title>button:hover {
     background: @accent;
     color: @cc-bg;
-} */
+}
  
 .widget-dnd {
     background: @noti-bg-darker;
