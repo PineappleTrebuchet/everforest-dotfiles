@@ -1,0 +1,68 @@
+@define-color border-color #2E383C;
+
+* {
+	background-image: none;
+	box-shadow: none;
+	font-family: JetBrainsMonoNerdFont;
+	font-size: 18px;
+	transition: none;
+}
+
+window {
+	background-color: rgba(30, 30, 30, 0.5);
+}
+
+button {
+  border-radius: 0;
+  border-color: transparent;
+	text-decoration-color: #d4be98;
+  color: #d4be98;
+	background-color: #272e33;
+	border-style: solid;
+	border-width: 1px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25%;
+}
+/* button:hover {
+	background-color: #303030;
+	outline-style: none;
+} */
+button:focus, button:active {
+	background-color: #2E383C;
+	outline-style: none;
+}
+
+#lock {
+    background-image: image(url("/home/cocotreb/.config/wlogout/icons/lock.png"));
+    border-left: 1px solid @border-color;
+    border-top: 1px solid @border-color;
+}
+
+#logout {
+    background-image: image(url("/home/cocotreb/.config/wlogout/icons/logout.png"));
+    border-top: 1px solid @border-color;
+}
+
+#suspend {
+    background-image: image(url("/home/cocotreb/.config/wlogout/icons/suspend.png"));
+    border-top: 1px solid @border-color;
+    border-right: 1px solid @border-color;
+}
+
+#hibernate {
+    background-image: image(url("/home/cocotreb/.config/wlogout/icons/hibernate.png"));
+    border-bottom: 1px solid @border-color;
+    border-left: 1px solid @border-color;
+}
+
+#shutdown {
+    background-image: image(url("/home/cocotreb/.config/wlogout/icons/shutdown.png"));
+    border-bottom: 1px solid @border-color;
+}
+
+#reboot {
+    background-image: image(url("/home/cocotreb/.config/wlogout/icons/reboot.png"));
+    border-bottom: 1px solid @border-color;
+    border-right: 1px solid @border-color;
+}

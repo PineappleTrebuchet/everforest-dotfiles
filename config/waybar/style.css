@@ -1,0 +1,119 @@
+@define-color font-color #D3C6AA;
+@define-color black #272e33;
+@define-color grey #2E383C;
+
+@define-color red #E67E80;
+@define-color orange #E69875;
+@define-color yellow #DBBC7F;
+@define-color green #A7C080;
+@define-color blue #7FBBB3;
+@define-color purple #D699B6;
+
+* {
+  /* font-family: "DroidSansMNerdFont", monospace; */
+  font-family: "JetBrainsMonoNerdFont", monospace;
+  font-size: 16px;
+  /*padding: 1px 0px 2px 0px;*/
+}
+
+
+window#waybar { 
+  background-color: @black; 
+  color: @font-color;
+  border-bottom: 1px solid @grey;
+}
+
+tooltip {
+	border-radius: 0px;
+	border: none;
+}
+
+#workspaces {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#workspaces button {
+	background: transparent;
+	border: none;
+	padding: 0px 10px 0px 10px;
+ 	min-width: 1px;
+	color: @font-color;
+	border-radius: 0px;
+}
+
+#workspaces button.focused { 
+	background-color: @grey;
+	color: @font-color;
+	border-radius: 0px;
+}
+#workspaces button.urgent{
+  color: @green;
+}
+
+/*kys default hover effects*/
+#workspaces button:hover {
+	box-shadow: inherit;
+	text-shadow: inherit;
+	transition: none;
+	border-radius: 0px;
+}
+
+#mode {
+	color: @red;
+  padding: 0px 5px 0px 5px;
+  margin: 0px 5px 0px 5px;
+}
+
+#power-profiles-daemon, #cpu, #memory, #network, #temperature, #backlight, #pulseaudio, #battery {
+  margin: 0px 12px 0px 12px;
+}
+
+#tray {
+	margin: 0px 7px 0px 9px;
+}
+
+#idle_inhibitor {
+	padding: 0px 10px 0px 9px;
+	margin: 0px 8px 0px 0px;
+}
+
+#scratchpad {
+  padding: 0px 4px 0px 4px;
+}
+
+#custom-swaync {
+  padding: 0px 10px 0px 7px;
+	margin: 0px 4px 0px 0px;
+	font-size: 20px;
+}
+
+#window {
+  padding: 0px 4px 0px 4px;
+}
+
+#clock {
+	margin: 0px 15px 0px 75px;
+  padding: 0px 8px 0px 8px;
+}
+
+#battery.critical:not(.charging) {
+  color: @red;
+}
+
+#temperature.critical {
+  color: @red;
+}
+
+#network.disconnected {
+  color: @red;
+}
+
+#pulseaudio.muted{
+  color: @red;
+}
+
+#custom-cava {
+	color: @font-color;
+	margin: 0px 8px 0px 8px;
+}
