@@ -18,7 +18,7 @@
 
 
 window#waybar { 
-  background-color: @black; 
+  /* background-color: @black;  */
   color: @font-color;
   border-bottom: 1px solid @grey;
 }

@@ -50,7 +50,7 @@ tooltip {
 	border-radius: 0px;
 }
 #workspaces button.urgent{
-  color: @green;
+	color: @green;
 }
 
 /*kys default hover effects*/
@@ -63,12 +63,12 @@ tooltip {
 
 #mode {
 	color: @red;
-  padding: 0px 5px 0px 5px;
-  margin: 0px 5px 0px 5px;
+	padding: 0px 5px 0px 5px;
+	margin: 0px 5px 0px 5px;
 }
 
 #power-profiles-daemon, #cpu, #memory, #network, #temperature, #backlight, #pulseaudio, #battery {
-  margin: 0px 12px 0px 12px;
+	margin: 0px 12px 0px 12px;
 }
 
 #tray {
