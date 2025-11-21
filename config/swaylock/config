@@ -2,15 +2,14 @@ clock
 timestr=%I:%M %p
 datestr=%a %b %d
 
-ignore-empty-password
 font=SpaceMono
 screenshots
 effect-blur=10x4
-effect-vignette=0.8:0.8
+effect-vignette=0.75:0.75
 
 indicator
 indicator-radius=275
-indicator-thickness=20
+indicator-thickness=18
 
 inside-color=#00000000
 inside-clear-color=#00000000

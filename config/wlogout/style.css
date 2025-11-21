@@ -5,11 +5,11 @@
 	box-shadow: none;
 	font-family: JetBrainsMonoNerdFont;
 	font-size: 18px;
-	/* transition: none; */
+	transition: none;
 }
 
 window {
-	background-color: rgba(30, 35, 38, 0.45);
+	background-color: rgba(30, 35, 38, 0.5);
 }
 
 button {

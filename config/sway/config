@@ -166,9 +166,9 @@ bindsym $mod+r mode "resize"
 
 # Colors:
 #
-client.focused          #272E33 #272E33 #D3C6AA #616b69 #616b69
-client.focused_inactive #2E383C #2E383C #D3C6AA #2E383C #2E383C
-client.unfocused        #2E383C #2E383C #D3C6AA #2E383C #2E383C
+client.focused          #616b69 #272E33 #D3C6AA #616b69 #616b69
+client.focused_inactive #2E383C #272E33 #D3C6AA #2E383C #2E383C
+client.unfocused        #2E383C #272E33 #D3C6AA #2E383C #2E383C
 client.urgent           #a1bc76 #2E383C #D3C6AA #a1bc76 #a1bc76
 
 # Waybar:
@@ -183,13 +183,13 @@ xwayland enable
 default_border pixel 1
 default_floating_border pixel 1
 focus_follows_mouse no
-#exec $HOME/.config/sway/scripts/start_waybar.sh
 gaps inner 4
 title_align center
 exec swaync
 seat seat0 xcursor_theme phinger-cursors-dark 24
 exec_always autotiling
 exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh
+exec --no-startup-id /usr/lib/xdg-desktop-portal -r
 
 # END
 include /etc/sway/config.d/*

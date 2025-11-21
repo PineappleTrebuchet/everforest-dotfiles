@@ -12,7 +12,7 @@
 }
 {
     "label" : "logout",
-    "action" : "killall niri; swaymsg exit",
+    "action" : "killall waybar; killall niri; swaymsg exit",
     "text" : "Logout (E)",
     "keybind" : "e"
 }

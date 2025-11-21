@@ -15,8 +15,8 @@ if not pcall(require, "lazy") then
   vim.cmd.quit()
 end
 
-vim.opt.relativenumber = false
-
 require "lazy_setup"
 require "polish"
 require('Comment').setup()
+require('java').setup()
+require('lspconfig').jdtls.setup({})

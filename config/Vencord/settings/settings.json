@@ -5,7 +5,7 @@
     "themeLinks": [],
     "eagerPatches": false,
     "enabledThemes": [
-        "everforest-dark.theme.css"
+        "everforest-dark-hard.theme.css"
     ],
     "enableReactDevtools": false,
     "frameless": false,
@@ -345,7 +345,10 @@
             "enabled": false
         },
         "OnePingPerDM": {
-            "enabled": true
+            "enabled": true,
+            "channelToAffect": "both_dms",
+            "allowMentions": false,
+            "allowEveryone": false
         },
         "oneko": {
             "enabled": false
@@ -609,6 +612,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1762884574900
+        "settingsSyncVersion": 1763445190251
     }
 }
