@@ -55,12 +55,12 @@
 "sway/window": {
     "format": "{}",
     "tooltip": false,
-    //"max-length": 60
+    //"max-length": 45
 },
 "niri/window": {
     "format": "{}",
     "tooltip": false,
-    //"max-length": 60
+    //"max-length": 45
 },
 "tray": {
     "icon-size": 19,

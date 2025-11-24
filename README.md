@@ -22,17 +22,19 @@ Keep in mind that these dotfiles aren't drag-and-drop ready and that this repo i
 - cava
 - Discord and Vencord
 
-### Display Manager:
+## Display Manager:
 I use greetd alongside tuigreet. I highly recommend it if you like the TUI look but want more functionality than a plain TTY.
 
 ## Instructions for installation
 1. Copy the contents of the `config` folder to `.config`. Do the same in `themes` and `icons` and their respective folders.
 2. The chrome folder is for Firefox custom CSS, and is based on [SimpleFox](https://github.com/migueravila/simplefox). Detailed instructions for installation can be found in their repo.
-3. Tweak the filepaths in the config files.
-4. Presto! You are ready to go.
+3. The contents of the `themes` and `icons` folders go in the `.themes` and `.icons` folders, respectively.
+4. Tweak the filepaths in the config files.
+5. Presto! You are ready to go.
 
 ## Gallery
-Coming soon :)
+![An image of my blank desktop](assets/112325_172120.png)
+![An image of my desktop showcasing various utilities](assets/112325_172644.png)
 
 ### TODO:
 - Install and implement ewww

@@ -36,7 +36,7 @@
 }
  
 .notification {
-    background: @cc-bg;
+    background: transparent;
     margin: 0px;
 }
  

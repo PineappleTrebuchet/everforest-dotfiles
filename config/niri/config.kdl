@@ -35,7 +35,7 @@ input {
         // off
         accel-speed 0.1
     }
-    warp-mouse-to-focus
+    //warp-mouse-to-focus
 }
 
 cursor{

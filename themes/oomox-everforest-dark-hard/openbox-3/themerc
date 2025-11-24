@@ -6,7 +6,7 @@
 
 
 # Menu
-menu.border.color: #272e33
+menu.border.color: #d3c6aa
 
 menu.title.bg: Solid Flat
 menu.title.bg.color: #21272b
@@ -121,10 +121,10 @@ osd.border.width: 2
 osd.hilight.bg: Solid Flat
 osd.hilight.bg.color: #a7c080
 osd.unhilight.bg: flat solid
-osd.unhilight.bg.color: #d3c6aa
+osd.unhilight.bg.color: #272e33
 
 osd.button.unpressed.bg: flat border
-osd.button.unpressed.bg.color: #374145
+osd.button.unpressed.bg.color: #272e33
 #osd.button.unpressed.*.border.color: #a7c080
 
 osd.button.pressed.bg: flat border
@@ -132,8 +132,8 @@ osd.button.pressed.bg.color: #a7c080
 #osd.button.pressed.*.border.color: #272e33
 
 osd.button.focused.bg: flat solid border
-osd.button.focused.bg.color: #272e33
-#osd.button.focused.*.border.color: #d3c6aa
+osd.button.focused.bg.color: #d3c6aa
+#osd.button.focused.*.border.color: #272e33
 
 osd.button.focused.box.color: #a7c080
 

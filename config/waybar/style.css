@@ -58,6 +58,7 @@ tooltip {
 }
 #workspaces button.urgent{
 	color: @green;
+	font-weight: bold;
 }
 
 /*kys default hover effects*/
@@ -78,6 +79,10 @@ tooltip {
 	margin: 0px 7px 0px 7px;
 }
 
+#clock {
+	margin: 0px 75px 0px 75px;
+}
+
 #idle_inhibitor {
 	min-width:30px;
 	padding: 0px 7px 0px 7px;
@@ -89,11 +94,6 @@ tooltip {
 
 #window {
   padding: 0px 4px 0px 4px;
-}
-
-#clock {
-	margin: 0px 15px 0px 80px;
-  padding: 0px 8px 0px 8px;
 }
 
 #battery.critical:not(.charging) {
