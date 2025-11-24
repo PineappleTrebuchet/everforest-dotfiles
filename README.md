@@ -26,7 +26,7 @@ Keep in mind that these dotfiles aren't drag-and-drop ready and that this repo i
 I use greetd alongside tuigreet. I highly recommend it if you like the TUI look but want more functionality than a plain TTY.
 
 ## Instructions for installation
-1. Copy the contents of the `config` folder to `.config`. Do the same in `themes` and `icons` and their respective folders.
+1. Copy the contents of the `config` folder to `.config`.
 2. The chrome folder is for Firefox custom CSS, and is based on [SimpleFox](https://github.com/migueravila/simplefox). Detailed instructions for installation can be found in their repo.
 3. The contents of the `themes` and `icons` folders go in the `.themes` and `.icons` folders, respectively.
 4. Tweak the filepaths in the config files.
