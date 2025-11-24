@@ -33,8 +33,8 @@ I use greetd alongside tuigreet. I highly recommend it if you like the TUI look 
 5. Presto! You are ready to go.
 
 ## Gallery
-![An image of my blank desktop](assets/112325_172120.png)
-![An image of my desktop showcasing various utilities](assets/112325_172644.png)
+![An image of my blank desktop](assets/112325_172644.png)
+![An image of my desktop showcasing various utilities](assets/112325_172120.png)
 
 ### TODO:
 - Install and implement ewww
