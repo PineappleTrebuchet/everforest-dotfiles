@@ -63,6 +63,11 @@ by Miguel Avila
   background: #303030 none !important;
 } */
 
+.tabbrowser-tab > .tab-stack > .tab-background {
+  border-inline: 0 !important;
+  box-shadow: none !important;
+}
+
 /* Inactive tabs color */
 #navigator-toolbox {
   background-color: var(--sfwindow) !important;
@@ -96,6 +101,13 @@ by Miguel Avila
 /* Tabs elements  */
 .tab-close-button {
   display: none;
+}
+
+#TabsToolbar,
+#nav-bar {
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+  box-shadow: none !important;
 }
 
 /*.tabbrowser-tab:not([pinned]) .tab-icon-image {
@@ -177,9 +189,9 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
   display: none !important;
 }
 
-.urlbarView-url {
+/* .urlbarView-url {
   color: #dedede !important;
-}
+} */
 
 /* Disable elements  */
 #context-navigation,
@@ -208,4 +220,14 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 #context_selectAllTabs,
 #context_closeTabOptions {
   display: none !important;
+}
+
+/* Keep active-tab color when window is unfocused */
+/*TODO: Debug this*/
+#main-window:-moz-window-inactive
+  .tabbrowser-tab[visuallyselected="true"] > .tab-stack > .tab-background,
+#main-window:-moz-window-inactive
+  .tabbrowser-tab[selected="true"] > .tab-stack > .tab-background {
+  background-color: var(--sfsecondary) !important;
+  background-image: none !important;
 }
