@@ -31,7 +31,7 @@ output * bg ~/Pictures/Backgrounds/mist_forest_1.png fill
         natural_scroll enabled
         middle_emulation enabled
         accel_profile "flat"
-        pointer_accel 0.55
+        pointer_accel 0.6
     }
 
     input 2:10:TPPS/2_Elan_TrackPoint {

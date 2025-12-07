@@ -121,7 +121,8 @@
             "enabled": true
         },
         "ClientTheme": {
-            "enabled": false
+            "enabled": false,
+            "color": "313338"
         },
         "ColorSighted": {
             "enabled": false
@@ -326,8 +327,8 @@
             "enabled": false
         },
         "NoServerEmojis": {
-            "enabled": false,
-            "shownEmojis": "onlyUnicode"
+            "enabled": true,
+            "shownEmojis": "currentServer"
         },
         "NoSystemBadge": {
             "enabled": false
@@ -342,7 +343,8 @@
             "enabled": false
         },
         "NotificationVolume": {
-            "enabled": false
+            "enabled": false,
+            "notificationVolume": 100
         },
         "OnePingPerDM": {
             "enabled": true,
@@ -447,7 +449,8 @@
             "summaryExpiryThresholdDays": 3
         },
         "SendTimestamps": {
-            "enabled": false
+            "enabled": false,
+            "replaceMessageContents": true
         },
         "ServerInfo": {
             "enabled": false
@@ -459,10 +462,12 @@
             "enabled": false
         },
         "ShowAllMessageButtons": {
-            "enabled": false
+            "enabled": true
         },
         "ShowConnections": {
-            "enabled": false
+            "enabled": false,
+            "iconSize": 32,
+            "iconSpacing": 1
         },
         "ShowHiddenChannels": {
             "enabled": false
@@ -612,7 +617,7 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1764555665979
+        "settingsSyncVersion": 1764897860387
     },
     "uiElements": {
         "chatBarButtons": {},

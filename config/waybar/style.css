@@ -75,8 +75,12 @@ tooltip {
 	margin: 0px 5px 0px 5px;
 }
 
-#tray, #power-profiles-daemon, #cpu, #memory, #network, #temperature, #backlight, #pulseaudio, #battery {
+#power-profiles-daemon, #cpu, #memory, #network, #temperature, #backlight, #pulseaudio, #battery {
 	margin: 0px 12px 0px 12px;
+}
+
+#tray {
+	margin: 0px 6px 0px 6px;
 }
 
 #clock {
