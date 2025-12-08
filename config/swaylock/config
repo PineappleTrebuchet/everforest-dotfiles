@@ -3,7 +3,8 @@ timestr=%I:%M %p
 datestr=%a %b %d
 
 font=SpaceMono
-image=~/Pictures/Backgrounds/mist_forest_1.png
+#image=~/Pictures/Backgrounds/mist_forest_1.png
+screenshots
 effect-blur=10x4
 effect-vignette=0.75:0.75
 ignore-empty-password
