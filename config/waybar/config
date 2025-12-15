@@ -2,7 +2,6 @@
 "layer": "top",	
 "position": "top",
 "height": 28,
-
 "modules-left": [
     "idle_inhibitor",
     "sway/workspaces",
@@ -64,7 +63,7 @@
 },
 "tray": {
     "icon-size": 19,
-    "spacing": 11
+    "spacing": 8
 },
 
 "clock": {
@@ -88,17 +87,16 @@
     "bat": "BAT0",
     "states": {
         "full": 99,
-        "good": 98,
-        "normal": 98,
-        "warning": 20,
+        "warning": 30,
         "critical": 20
     },
+    "events": {
+        "on-discharging-critical": "notify-send -u critical 'WARNING: Critical Battery!'",
+    },
     "format": "BAT:{capacity}%",
-    //"format-good": "BAT:{capacity}%", 
-    //"format-full": "BAT:{capacity}%",
     "format-charging": " BAT:{capacity}%",
     "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
-    "interval": 30
+    "interval": 15
 },
 
 "power-profiles-daemon": {

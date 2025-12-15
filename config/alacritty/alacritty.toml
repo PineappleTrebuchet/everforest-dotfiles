@@ -1,6 +1,7 @@
 [window]
 padding = {x = 8, y = 8}
-title = "cocotreb@tpt14g5:~"
+#title = "cocotreb@tpt14g5:~"
+title = "~"
 dynamic_title = true
 opacity = 1
 

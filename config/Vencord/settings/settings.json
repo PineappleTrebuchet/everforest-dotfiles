@@ -383,8 +383,8 @@
                 "885602820349374486": [
                     {
                         "id": "ae3wfyshuaq",
-                        "name": "Friend Group",
-                        "color": 15457202,
+                        "name": "IRL Friends",
+                        "color": 3447003,
                         "collapsed": false,
                         "channels": [
                             "1271576140888150159",
@@ -394,7 +394,22 @@
                             "885914848582590465",
                             "1212598489088008213",
                             "1441097642217046176",
-                            "1183742570438869032"
+                            "1183742570438869032",
+                            "1204936191435087892",
+                            "1232817939024056371",
+                            "1319755347908624425",
+                            "886040876298694729"
+                        ]
+                    },
+                    {
+                        "id": "w59l7zxwvu",
+                        "name": "Arcade Friends",
+                        "color": 3066993,
+                        "collapsed": false,
+                        "channels": [
+                            "1441930799413723170",
+                            "1449535209178398820",
+                            "1405333437459464342"
                         ]
                     }
                 ]
@@ -619,7 +634,7 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1765173677037
+        "settingsSyncVersion": 1765689678163
     },
     "uiElements": {
         "chatBarButtons": {},
