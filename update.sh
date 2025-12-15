@@ -25,6 +25,7 @@ cp ~/.config/Vencord config/ -r
 cp ~/.config/waybar config/ -r
 cp ~/.config/wlogout config/ -r
 cp ~/.config/pavucontrol.ini config/
+cp ~/.config/fish config/ -r
 
 #cp ~/.icons/* icons/ -r
 cp ~/.icons/oomox-everforest-dark-hard icons/ -r

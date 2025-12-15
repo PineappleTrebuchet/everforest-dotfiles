@@ -16,6 +16,7 @@ Keep in mind that these dotfiles aren't drag-and-drop ready and that this repo i
 - swaylock
 - swaync
 - Thunar
+- Fish shell
 ### Optional Dependencies:
 - btop
 - htop
@@ -35,6 +36,3 @@ I use greetd alongside tuigreet. I highly recommend it if you like the TUI look 
 ## Gallery
 ![An image of my blank desktop](assets/112325_172644.png)
 ![An image of my desktop showcasing various utilities](assets/112325_172120.png)
-
-### TODO:
-- Install and implement ewww
