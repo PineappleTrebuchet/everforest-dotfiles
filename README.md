@@ -15,7 +15,6 @@ Keep in mind that these dotfiles aren't drag-and-drop ready and that this repo i
 - wlogout
 - waybar
 - zsh w/ oh-my-zsh
-
 ### Optional Dependencies:
 - btop
 - htop
