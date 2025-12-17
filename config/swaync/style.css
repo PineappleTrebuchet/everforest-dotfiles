@@ -9,7 +9,6 @@
 @define-color noti-bg-darker #374145;
 @define-color text-color #D3C6AA;
 @define-color text-color-disabled #D3C6AA;
-@define-color bg-selected #A7C080;
 @define-color accent #A7C080;
 
 :root {
@@ -36,7 +35,8 @@
 }
  
 .notification {
-    background: transparent;
+    background: @cc-bg;
+    border: 1px solid @noti-border-color;
     margin: 0px;
 }
  
@@ -49,8 +49,8 @@
 }
  
 .close-button {
-    background: @accent;
-    color: @cc-bg;
+    background: @noti-bg;
+    color: @noti-bg-darker;
     text-shadow: none;
     padding: 0;
     border-radius: 0px;
@@ -60,7 +60,8 @@
  
 .close-button:hover {
     box-shadow: none;
-    background: @accent;
+    background: @noti-bg;
+    color: @noti-bg-darker;
     transition: all .15s ease-in-out;
     border: none;
 }
@@ -197,26 +198,6 @@
 .widget-mpris-subtitle {
     font-size: 1.1rem;
 }
-/*
-.widget-buttons-grid {
-    font-size: x-large;
-    padding: 5px;
-    margin: 5px 10px 10px 10px;
-    border-radius: 0px;
-    background: @noti-bg-darker;
-}
- 
-.widget-buttons-grid>flowbox>flowboxchild>button {
-    margin: 3px;
-    background: @cc-bg;
-    border-radius: 0px;
-    color: @text-color
-}
- 
-.widget-buttons-grid>flowbox>flowboxchild>button:hover {
-    background: @accent;
-    color: @cc-bg;
-} */
  
 .widget-menubar>box>.menu-button-bar>button {
     border: none;

@@ -11,7 +11,7 @@
     "frameless": false,
     "transparent": false,
     "winCtrlQ": false,
-    "disableMinSize": false,
+    "disableMinSize": true,
     "winNativeTitleBar": false,
     "plugins": {
         "ChatInputButtonAPI": {
@@ -399,7 +399,8 @@
                             "1232817939024056371",
                             "1319755347908624425",
                             "886040876298694729",
-                            "1042803710549577729"
+                            "1042803710549577729",
+                            "1407133597541859360"
                         ]
                     },
                     {
@@ -635,7 +636,7 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1765904097101
+        "settingsSyncVersion": 1765999859570
     },
     "uiElements": {
         "chatBarButtons": {},
