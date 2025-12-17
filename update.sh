@@ -4,6 +4,7 @@ rm chrome/* -r
 rm config/* -r
 rm icons/* -r
 rm themes/* -r
+rm zsh/* -r
 
 cp ~/.waterfox/'pCOlJDgg.Profile 1'/chrome/* chrome/ -r
 
@@ -25,8 +26,10 @@ cp ~/.config/Vencord config/ -r
 cp ~/.config/waybar config/ -r
 cp ~/.config/wlogout config/ -r
 cp ~/.config/pavucontrol.ini config/
-cp ~/.config/fish config/ -r
 
 #cp ~/.icons/* icons/ -r
 cp ~/.icons/oomox-everforest-dark-hard icons/ -r
 cp ~/.themes/oomox-everforest-dark-hard themes/ -r
+
+cp ~/.zshrc zsh/ -r
+cp ~/.oh-my-zsh/themes/murilasso-modified.zsh-theme zsh/ -r
