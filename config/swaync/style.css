@@ -3,7 +3,6 @@
  */
 
 @define-color cc-bg #272E33;
-/* @define-color cc-bg rgba(39, 46, 51, 0.9); */
 @define-color noti-border-color #2E383C;
 @define-color noti-bg #414B50;
 @define-color noti-bg-darker #374145;
@@ -49,22 +48,22 @@
 }
  
 .close-button {
-    background: @noti-bg;
-    color: @noti-bg-darker;
+    color: @accent;
+    background: transparent;
     text-shadow: none;
     padding: 0;
     border-radius: 0px;
-    margin-top: 5px;
-    margin-right: 5px;
+    margin-top: 6px;
+    margin-right: 6px;
 }
- 
-.close-button:hover {
-    box-shadow: none;
-    background: @noti-bg;
-    color: @noti-bg-darker;
-    transition: all .15s ease-in-out;
-    border: none;
-}
+/*   */
+/* .close-button:hover { */
+/*     color: @accent; */
+/*     box-shadow: none; */
+/*     background: transparent; */
+/*     transition: none; */
+/*     border: none; */
+/* } */
  
 .notification-action {
     color: @text-color;
@@ -80,7 +79,7 @@
  
 .summary {
 	padding-top: 7px;
-    font-size: 13px;
+    font-size: 14px;
 }
  
 .time {
@@ -90,7 +89,7 @@
 }
  
 .body {
-    font-size: 12px;
+    font-size: 13px;
 }
  
 .control-center {
@@ -100,7 +99,8 @@
 }
  
 .control-center-list {
-    background: transparent;
+    /* background: transparent; */
+    background: @noti-bg-darker;
 }
  
 .control-center-list-placeholder {
@@ -173,39 +173,3 @@
     color: @text-color;
 }
  
-.widget-mpris {
-    color: @text-color;
-    background: @noti-bg-darker;
-    padding: 5px 10px 0px 0px;
-    margin: 5px 10px 5px 10px;
-    border-radius: 0px;
-}
- 
-.widget-mpris > box > button {
-    border-radius: 0px;
-}
- 
-.widget-mpris-player {
-    padding: 5px 10px;
-    margin: 10px;
-}
- 
-.widget-mpris-title {
-    font-weight: 700;
-    font-size: 1.25rem;
-}
- 
-.widget-mpris-subtitle {
-    font-size: 1.1rem;
-}
- 
-.widget-menubar>box>.menu-button-bar>button {
-    border: none;
-    background: transparent;
-}
- 
-.topbar-buttons>button {
-    border: none;
-    background: transparent;
-}
-

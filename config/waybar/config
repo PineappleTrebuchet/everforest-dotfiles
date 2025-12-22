@@ -87,7 +87,6 @@
     "bat": "BAT0",
     "states": {
         "full": 99,
-        "warning": 30,
         "critical": 20
     },
     "events": {

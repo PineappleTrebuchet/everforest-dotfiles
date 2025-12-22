@@ -198,7 +198,7 @@ focus_follows_mouse no
 gaps inner 4
 title_align center
 exec killall dunst
-exec_always killall swaync; swaync
+exec swaync
 seat seat0 xcursor_theme phinger-cursors-dark 24
 exec_always autotiling
 exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh
