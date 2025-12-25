@@ -34,6 +34,6 @@ I use greetd alongside tuigreet. I highly recommend it if you like the TUI look 
 6. Presto! You are ready to go.
 
 ## Gallery
-![An image of my blank desktop](assets/.112325_172644.png)
+![An image of my blank desktop](assets/112325_172644.png)
 ![An image of my desktop showcasing various utilities](assets/122525_172554.png)
 ![An image of my desktop showcasing my app launcher, notification center, file manager, and a GTK-3 theme editor](assets/122525_172923.png)
