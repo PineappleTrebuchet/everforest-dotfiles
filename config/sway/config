@@ -204,6 +204,8 @@ exec_always autotiling
 exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh
 exec --no-startup-id /usr/lib/xdg-desktop-portal -r
 font pango:JetBrainsMonoNerdFont 11
+# Force qt theme to use gtk
+exec export QT_QPA_PLATFORMTHEME=gtk3
 
 # END
 include /etc/sway/config.d/*

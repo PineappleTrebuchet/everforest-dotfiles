@@ -75,12 +75,12 @@
 "memory": {
     "format": "{used}GiB",
     "tooltip-format": "{percentage}% used",
-    "interval": 5
+    "interval": 3
 },
 
 "cpu": {
     "format": "CPU:{usage}%", 
-    "interval": 5
+    "interval": 3
 },
 
 "battery": {

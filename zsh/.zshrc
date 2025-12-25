@@ -97,10 +97,8 @@ plugins=(git colored-man-pages)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
-# export MANPATH="/usr/local/man:$MANPATH"
-
 export EDITOR='nvim'
+export QT_QPA_PLATFORMTHEME='gtk3'
 
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
@@ -116,3 +114,6 @@ export EDITOR='nvim'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias vbox="VBoxManage"
+alias pcsx2="net.pcsx2.PCSX2"
+
