@@ -143,7 +143,7 @@ screenshot-path "~/Pictures/Screenshots/%m%d%y_%H%M%S.png"
 // https://yalter.github.io/niri/Configuration:-Animations
 animations {
     // off
-    slowdown 0.5
+    slowdown 0.45
 }
 
 // https://yalter.github.io/niri/Configuration:-Window-Rules

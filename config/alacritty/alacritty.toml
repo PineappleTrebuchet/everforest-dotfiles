@@ -6,7 +6,7 @@ opacity = 1
 
 [font]
 normal = {family = "JetBrainsMonoNerdFont"}
-size = 13
+size = 12
 
 [colors.primary]
 background = '#272e33'

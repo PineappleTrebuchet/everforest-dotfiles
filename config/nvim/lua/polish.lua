@@ -16,7 +16,3 @@ vim.filetype.add {
     ["~/%.config/foo/.*"] = "fooscript",
   },
 }
-
-vim.opt.relativenumber = false
-vim.opt.number = true
-

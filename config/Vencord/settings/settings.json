@@ -624,6 +624,9 @@
         },
         "AutoDNDWhilePlaying": {
             "enabled": false
+        },
+        "MoreQuickReactions": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -636,7 +639,7 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1766459107027
+        "settingsSyncVersion": 1767026594655
     },
     "uiElements": {
         "chatBarButtons": {},

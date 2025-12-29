@@ -38,7 +38,7 @@
     border: 1px solid @noti-border-color;
     margin: 0px;
 }
- 
+
 .notification-content {
     background: @cc-bg;
     padding: 7px;
@@ -56,14 +56,6 @@
     margin-top: 6px;
     margin-right: 6px;
 }
-/*   */
-/* .close-button:hover { */
-/*     color: @accent; */
-/*     box-shadow: none; */
-/*     background: transparent; */
-/*     transition: none; */
-/*     border: none; */
-/* } */
  
 .notification-action {
     color: @text-color;
