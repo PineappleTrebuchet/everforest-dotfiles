@@ -32,4 +32,4 @@ cp ~/.icons/oomox-everforest-dark-hard icons/ -r
 cp ~/.themes/oomox-everforest-dark-hard themes/ -r
 
 cp ~/.zshrc zsh/ -r
-cp ~/.oh-my-zsh/themes/murilasso-modified.zsh-theme zsh/ -r
+cp ~/.oh-my-zsh/themes/cocos-theme.zsh-theme zsh/ -r
