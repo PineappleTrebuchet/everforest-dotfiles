@@ -56,12 +56,6 @@ by Miguel Avila
   background-image: none !important;
   background-color: var(--toolbar-bgcolor) !important;
 }
-/* .tabbrowser-tab[selected="true"] .tab-background {
-  background: #343434 none !important;
-}
-.tabbrowser-tab:not([selected]):hover .tab-background {
-  background: #303030 none !important;
-} */
 
 .tabbrowser-tab > .tab-stack > .tab-background {
   border-inline: 0 !important;
@@ -150,6 +144,7 @@ by Miguel Avila
 }
 
 /* Url Bar  */
+
 #urlbar-input-container {
   /* background-color: var(--sfsecondary) !important; */
   border: 1px solid rgba(0, 0, 0, 0) !important;
@@ -157,6 +152,7 @@ by Miguel Avila
 
 #urlbar-container {
   margin-left: 0 !important;
+  background-color: transparent;
 }
 
 #urlbar[focused='true'] > #urlbar-background {
@@ -188,10 +184,6 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 .tab-secondary-label {
   display: none !important;
 }
-
-/* .urlbarView-url {
-  color: #dedede !important;
-} */
 
 /* Disable elements  */
 #context-navigation,
