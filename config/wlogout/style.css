@@ -24,10 +24,7 @@ button {
 	background-position: center;
 	background-size: 25%;
 }
-/* button:hover {
-	background-color: #303030;
-	outline-style: none;
-} */
+
 button:focus, button:active {
 	outline-style: none;
 }

@@ -21,7 +21,9 @@ output * bg ~/Pictures/Backgrounds/mist_forest_1.png fill
   #          timeout 300 'swaylock -f' \
   #          timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
   #          before-sleep 'swaylock -f'
-  exec swayidle -w timeout 300 'swaymsg "output * power off"' resume 'swaymsg "output * power on"'
+  exec swayidle -w \
+    timeout 300 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
+    timeout 600 'swaylock -f'
 
 # Input configuration
 #
@@ -210,6 +212,7 @@ exec --no-startup-id /usr/lib/xdg-desktop-portal -r
 font pango:JetBrainsMonoNerdFont 11
 # Force qt theme to use gtk
 exec export QT_QPA_PLATFORMTHEME=gtk3
+output * scale 1
 
 # END
 include /etc/sway/config.d/*

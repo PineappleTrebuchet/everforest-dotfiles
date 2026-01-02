@@ -163,6 +163,16 @@ by Miguel Avila
   border: none !important;
 }
 
+
+.tab-background[selected="true"] {
+  background-color: var(--sfsecondary) !important;
+  background-image: none !important;
+}
+    
+#urlbar-background{
+  background-color: var(--sfwindow) !important;
+}
+
 /* Bookmarks bar  */
 /*.bookmark-item .toolbarbutton-icon {
   display: none;
@@ -216,10 +226,11 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 
 /* Keep active-tab color when window is unfocused */
 /*TODO: Debug this*/
-#main-window:-moz-window-inactive
+
+/* #main-window:-moz-window-inactive
   .tabbrowser-tab[visuallyselected="true"] > .tab-stack > .tab-background,
 #main-window:-moz-window-inactive
   .tabbrowser-tab[selected="true"] > .tab-stack > .tab-background {
   background-color: var(--sfsecondary) !important;
   background-image: none !important;
-}
+} */
