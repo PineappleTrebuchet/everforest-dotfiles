@@ -67,7 +67,7 @@
 },
 
 "clock": {
-    "format": "{:%a %b %d, %r}",
+    "format": "{:%a %m-%d %r}",
     "interval": 1,
     "tooltip": false
 },
