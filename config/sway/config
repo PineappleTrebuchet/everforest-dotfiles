@@ -1,3 +1,5 @@
+# Variables
+#
 set $mod Mod4
 set $left h
 set $down j
@@ -6,21 +8,17 @@ set $right l
 set $term alacritty
 set $menu fuzzel
 
+#Background
+#
 output * bg ~/Pictures/Backgrounds/mist_forest_1.png fill
 #exec_always swaybg -c 2E383C
 
 # Example configuration:
-#
-#   output HDMI-A-1 resolution 1920x1080 position 1920,0
-#
+# output HDMI-A-1 resolution 1920x1080 position 1920,0
 # You can get the names of your outputs by running: swaymsg -t get_outputs
 
 # Swayidle
 #
-  # exec swayidle -w \
-  #          timeout 300 'swaylock -f' \
-  #          timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
-  #          before-sleep 'swaylock -f'
   exec swayidle -w \
     timeout 300 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
     timeout 600 'swaylock -f'
@@ -38,7 +36,7 @@ output * bg ~/Pictures/Backgrounds/mist_forest_1.png fill
 
     input 2:10:TPPS/2_Elan_TrackPoint {
         accel_profile "flat"
-        pointer_accel 0.1
+        pointer_accel 0.05
     }
  
 # You can also configure each device individually.
@@ -52,6 +50,7 @@ output * bg ~/Pictures/Backgrounds/mist_forest_1.png fill
     floating_modifier $mod normal
     bindsym $mod+Shift+r reload
     bindsym $mod+Shift+e exec wlogout -m 375
+    bindsym $mod+m exec killall -SIGUSR1 waybar
     # Notification center popup
     bindsym $mod+n exec swaync-client -t -sw
 
@@ -98,7 +97,6 @@ output * bg ~/Pictures/Backgrounds/mist_forest_1.png fill
     bindsym $mod+7 workspace number 7
     bindsym $mod+8 workspace number 8
     bindsym $mod+9 workspace number 9
-    # bindsym $mod+0 workspace number 10
 
     bindsym $mod+Shift+1 move container to workspace number 1
     bindsym $mod+Shift+2 move container to workspace number 2
@@ -109,7 +107,6 @@ output * bg ~/Pictures/Backgrounds/mist_forest_1.png fill
     bindsym $mod+Shift+7 move container to workspace number 7
     bindsym $mod+Shift+8 move container to workspace number 8
     bindsym $mod+Shift+9 move container to workspace number 9
-    # bindsym $mod+Shift+0 move container to workspace number 10
     # Note: workspaces can have any name you want, not just numbers.
     # We just use 1-10 as the default.
 
@@ -166,28 +163,31 @@ bindsym $mod+r mode "resize"
     # Audio
     bindsym --locked XF86AudioMute exec pactl set-sink-mute \@DEFAULT_SINK@ toggle
     bindsym --locked XF86AudioMicMute exec pactl set-source-mute \@DEFAULT_SOURCE@ toggle
-    
     bindsym --locked XF86AudioLowerVolume exec pactl set-sink-volume \@DEFAULT_SINK@ -5%
     bindsym --locked Shift+XF86AudioLowerVolume exec pactl set-sink-volume \@DEFAULT_SINK@ -1%
-
     bindsym --locked XF86AudioRaiseVolume exec $HOME/.config/sway/scripts/volume-up.sh 5
     bindsym --locked Shift+XF86AudioRaiseVolume exec $HOME/.config/sway/scripts/volume-up.sh 1
 
     # Brightness
-    bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%- && ~/.config/sway/scripts/keep-bl.sh
-    bindsym --locked Shift+XF86MonBrightnessDown exec brightnessctl set 1%- && ~/.config/sway/scripts/keep-bl.sh
+    bindsym --locked XF86MonBrightnessDown exec $HOME/.config/sway/scripts/brightness-down.sh 5
+    bindsym --locked Shift+XF86MonBrightnessDown exec $HOME/.config/sway/scripts/brightness-down.sh 1
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
     bindsym --locked Shift+XF86MonBrightnessUp exec brightnessctl set 1%+
+
     # Screenshots
     bindsym Print exec grim -l 9 "$HOME/Pictures/Screenshots/$(date +'%m%d%y_%H%M%S').png" && notify-send "Screenshot taken!" -u low
     bindsym XF86SelectiveScreenshot exec sh -c "slurp | grim -l 9 -g - $HOME/Pictures/Screenshots/$(date +'%m%d%y_%H%M%S').png && notify-send 'Screensnip taken!' -u low"
 
-# Colors:
+# Colors and Aesthetic:
 #
 client.focused          #616b69 #272E33 #D3C6AA #616b69 #616b69
 client.focused_inactive #2E383C #272E33 #D3C6AA #2E383C #2E383C
 client.unfocused        #2E383C #272E33 #D3C6AA #2E383C #2E383C
 client.urgent           #a1bc76 #2E383C #D3C6AA #a1bc76 #a1bc76
+
+default_border pixel 1
+default_floating_border pixel 1
+gaps inner 4
 
 # Waybar:
 #
@@ -198,12 +198,8 @@ bar {
 # Miscellaneous:
 # 
 xwayland enable
-default_border pixel 1
-default_floating_border pixel 1
 focus_follows_mouse no
-gaps inner 4
 title_align center
-exec killall dunst
 exec swaync
 seat seat0 xcursor_theme phinger-cursors-dark 24
 exec_always autotiling

@@ -115,7 +115,8 @@
             "blurAmount": 10
         },
         "CallTimer": {
-            "enabled": true
+            "enabled": true,
+            "format": "stopwatch"
         },
         "ClearURLs": {
             "enabled": true
@@ -192,7 +193,8 @@
             "disableEmbedPermissionCheck": false
         },
         "FakeProfileThemes": {
-            "enabled": false
+            "enabled": false,
+            "nitroFirst": true
         },
         "FavoriteEmojiFirst": {
             "enabled": false
@@ -201,10 +203,10 @@
             "enabled": false
         },
         "FixCodeblockGap": {
-            "enabled": false
+            "enabled": true
         },
         "FixImagesQuality": {
-            "enabled": false
+            "enabled": true
         },
         "FixSpotifyEmbeds": {
             "enabled": true
@@ -458,7 +460,14 @@
             "enabled": false
         },
         "RoleColorEverywhere": {
-            "enabled": false
+            "enabled": false,
+            "chatMentions": true,
+            "memberList": true,
+            "voiceUsers": true,
+            "reactorsList": true,
+            "pollResults": true,
+            "colorChatMessages": false,
+            "messageSaturation": 30
         },
         "SecretRingToneEnabler": {
             "enabled": false
@@ -639,7 +648,7 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1767026594655
+        "settingsSyncVersion": 1767576746112
     },
     "uiElements": {
         "chatBarButtons": {},

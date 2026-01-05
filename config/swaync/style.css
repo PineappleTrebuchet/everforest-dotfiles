@@ -19,7 +19,6 @@
     font-weight: normal;
 	font-size: 14px;
 	color: @text-color;
-	/* background: @noti-bg-darker; */
 }
  
 .control-center .notification-row:focus,
@@ -47,8 +46,13 @@
     border: 1px solid @noti-border-color;
     margin: 0;
 }
+
+.notification-group {
+    background: @noti-bg-darker;
+}
  
-.close-button {
+.close-button,
+.close-button:hover {
     color: @accent;
     background: transparent;
     text-shadow: none;
@@ -57,7 +61,7 @@
     margin-top: 6px;
     margin-right: 6px;
 }
- 
+
 .notification-action {
     color: @text-color;
     border-top: none;
@@ -73,12 +77,6 @@
 .summary {
 	padding-top: 7px;
     font-size: 14px;
-}
- 
-.time {
-    font-size: 11px;
-    color: @accent;
-    margin-right: 24px;
 }
  
 .body {
