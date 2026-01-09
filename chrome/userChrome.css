@@ -22,7 +22,6 @@ by Miguel Avila
   --sfwindow: #272E33 !important;
   --sfsecondary: #2E383C !important;
 }
-
 /* Urlbar View */
 
 /*─────────────────────────────*/
@@ -223,14 +222,3 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 #context_closeTabOptions {
   display: none !important;
 }
-
-/* Keep active-tab color when window is unfocused */
-/*TODO: Debug this*/
-
-/* #main-window:-moz-window-inactive
-  .tabbrowser-tab[visuallyselected="true"] > .tab-stack > .tab-background,
-#main-window:-moz-window-inactive
-  .tabbrowser-tab[selected="true"] > .tab-stack > .tab-background {
-  background-color: var(--sfsecondary) !important;
-  background-image: none !important;
-} */

@@ -45,7 +45,7 @@
         },
         "mpris": {
             "image-size": 96,
-            "image-radius": 7
+            "image-radius": 0
         }
    }
 }

@@ -8,7 +8,7 @@
 @define-color noti-bg-darker #374145;
 @define-color text-color #D3C6AA;
 @define-color text-color-disabled #D3C6AA;
-@define-color accent #A7C080;
+@define-color accent-color #A7C080;
 
 :root {
   --border-radius: 0px;
@@ -53,7 +53,7 @@
  
 .close-button,
 .close-button:hover {
-    color: @accent;
+    color: @accent-color;
     background: transparent;
     text-shadow: none;
     padding: 0;
@@ -123,7 +123,7 @@
 }
  
 .widget-title>button:hover {
-    background: @accent;
+    background: @accent-color;
     color: @cc-bg;
 }
  
@@ -141,7 +141,7 @@
 }
  
 .widget-dnd>switch:checked {
-    background: @accent;
+    background: @accent-color;
 }
  
 .widget-dnd>switch slider {
@@ -163,4 +163,3 @@
     font-size: 1rem;
     color: @text-color;
 }
- 

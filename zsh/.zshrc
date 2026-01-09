@@ -116,4 +116,4 @@ export QT_QPA_PLATFORMTHEME='gtk3'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vbox="VBoxManage"
 alias pcsx2="net.pcsx2.PCSX2"
-
+alias optk="OpenTaiko-Hub"
