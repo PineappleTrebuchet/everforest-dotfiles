@@ -209,6 +209,7 @@ font pango:JetBrainsMonoNerdFont 11
 # Force qt theme to use gtk
 exec export QT_QPA_PLATFORMTHEME=gtk3
 output * scale 1
+for_window [title=".*"] floating enable
 
 # END
 include /etc/sway/config.d/*
