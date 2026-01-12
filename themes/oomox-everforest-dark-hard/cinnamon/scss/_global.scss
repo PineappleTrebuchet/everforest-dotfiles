@@ -8,11 +8,11 @@ $selected_bg_color: #2e383c;
 $selected_fg_color: #a7c080;
 $tooltip_bg_color: #272e33;
 $tooltip_fg_color: #d3c6aa;
-$dark_bg_color: fade-out(#21272b, 1 - 1.0);
+$dark_bg_color: fade-out(#1e2326, 1 - 1.0);
 $dark_fg_color: #a7c080;
 
 // an always transparent color used for expo & scale views and the lightbox effect when cinnamon is showing an OSD.
-$dark_bg_color_trans: fade-out(#21272b, 1 - (1.0 / 2));
+$dark_bg_color_trans: fade-out(#1e2326, 1 - (1.0 / 2));
 
 // used to calculate gradients for gradient values > 0
 $lighten_amount: 1 + (0.02 / 2);
