@@ -18,7 +18,7 @@ cp ~/.config/gtk-4.0 config/ -r
 cp ~/.config/htop config/ -r
 cp ~/.config/niri config/ -r
 cp ~/.config/nvim config/ -r
-cp ~/.config/oomox config/ -r
+mkdir config/oomox; cp ~/.var/app/com.github.themix_project.Oomox/config/oomox/* config/oomox/ -r
 cp ~/.config/sway config/ -r
 cp ~/.config/swaylock config/ -r
 cp ~/.config/swaync config/ -r

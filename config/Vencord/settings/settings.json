@@ -24,13 +24,13 @@
             "enabled": false
         },
         "MemberListDecoratorsAPI": {
-            "enabled": false
+            "enabled": true
         },
         "MessageAccessoriesAPI": {
             "enabled": true
         },
         "MessageDecorationsAPI": {
-            "enabled": false
+            "enabled": true
         },
         "MessageEventsAPI": {
             "enabled": true
@@ -415,7 +415,8 @@
                             "1441930799413723170",
                             "1449535209178398820",
                             "1405333437459464342",
-                            "1431798406224810034"
+                            "1431798406224810034",
+                            "1459410225504194705"
                         ]
                     }
                 ]
@@ -426,7 +427,11 @@
             "enabled": false
         },
         "PlatformIndicators": {
-            "enabled": false
+            "enabled": true,
+            "colorMobileIndicator": true,
+            "list": true,
+            "badges": true,
+            "messages": true
         },
         "PreviewMessage": {
             "enabled": false
@@ -650,7 +655,7 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1768013804939
+        "settingsSyncVersion": 1768191704179
     },
     "uiElements": {
         "chatBarButtons": {},

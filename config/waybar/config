@@ -5,12 +5,12 @@
 "modules-left": [
     "idle_inhibitor",
     "sway/workspaces",
-    "niri/workspaces",
+    //"niri/workspaces",
     "sway/scratchpad",
     "tray",
     "sway/mode",
-    "sway/window",
-    "niri/window"
+    "sway/window"
+    //"niri/window"
 ],
 "modules-center": ["clock",],
 "modules-right": [

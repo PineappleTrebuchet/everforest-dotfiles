@@ -20,8 +20,8 @@ output * bg ~/Pictures/Backgrounds/mist_forest_1.png fill
 # Swayidle
 #
   exec swayidle -w \
-    timeout 180 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
-    timeout 360 'swaylock -f'
+    timeout 300 'swaylock -f' \
+    timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"'
 
 # Input configuration
 #
@@ -180,7 +180,7 @@ bindsym $mod+r mode "resize"
 
 # Colors and Aesthetic:
 #
-client.focused          #616b69 #272E33 #D3C6AA #616b69 #616b69
+client.focused          #555e5c #272E33 #D3C6AA #616b69 #616b69
 client.focused_inactive #2E383C #272E33 #D3C6AA #2E383C #2E383C
 client.unfocused        #2E383C #272E33 #D3C6AA #2E383C #2E383C
 client.urgent           #a1bc76 #2E383C #D3C6AA #a1bc76 #a1bc76
@@ -205,11 +205,11 @@ seat seat0 xcursor_theme phinger-cursors-dark 24
 exec_always autotiling
 exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh
 exec --no-startup-id /usr/lib/xdg-desktop-portal -r
-font pango:JetBrainsMonoNerdFont 11
+font pango:JetBrainsMonoNerdFont 10
 # Force qt theme to use gtk
 exec export QT_QPA_PLATFORMTHEME=gtk3
 output * scale 1
-for_window [title=".*"] floating enable
+# for_window [title=".*"] floating enable
 
 # END
 include /etc/sway/config.d/*

@@ -51,9 +51,8 @@
     background: @noti-bg-darker;
 }
  
-.close-button,
-.close-button:hover {
-    color: @accent-color;
+.close-button {
+    color: @accent-color !important;
     background: transparent;
     text-shadow: none;
     padding: 0;
@@ -63,7 +62,7 @@
 }
 
 .notification-action {
-    color: @text-color;
+    color: @accent-color;
     border-top: none;
     border-radius: 0px;
     background: @noti-bg;
@@ -87,19 +86,6 @@
     background: @cc-bg;
     border: 1px solid @noti-border-color;
     border-radius: 0px;
-}
- 
-.control-center-list {
-    /* background: transparent; */
-    background: @noti-bg-darker;
-}
- 
-.control-center-list-placeholder {
-    opacity: .5;
-}
- 
-.floating-notifications {
-    background: transparent;
 }
  
 .blank-window {
