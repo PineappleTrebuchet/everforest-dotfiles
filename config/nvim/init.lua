@@ -20,3 +20,4 @@ require "polish"
 require('Comment').setup()
 require('java').setup()
 -- vim.lsp.enable('jdtls')
+require("lspconfig").jdtls.setup({})
