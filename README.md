@@ -21,6 +21,8 @@ Keep in mind that these dotfiles aren't drag-and-drop ready and that this repo i
 - cava
 - Discord and Vencord
 - niri
+### Background:
+My backgrounds are from the repository [Apeiros-46B/everforest-walls](https://github.com/Apeiros-46B/everforest-walls). The specific one I use is `everforest-walls/nature/mist_forest_2.png`.
 
 ## Display Manager:
 I use greetd alongside tuigreet. I highly recommend it if you like the TUI look but want more functionality than a plain TTY.
