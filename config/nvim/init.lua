@@ -18,6 +18,6 @@ end
 require "lazy_setup"
 require "polish"
 require('Comment').setup()
-require('java').setup()
--- vim.lsp.enable('jdtls')
-require("lspconfig").jdtls.setup({})
+-- require('java').setup()
+-- require("lspconfig").jdtls.setup({})
+
