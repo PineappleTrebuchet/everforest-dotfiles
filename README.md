@@ -36,5 +36,6 @@ I use greetd alongside tuigreet. I highly recommend it if you like the TUI look 
 6. Presto! You are ready to go.
 
 ## Gallery
-![An image of my blank desktop](assets/122525_172333.png)
-![An image of my desktop showcasing various utilities](assets/123125_124925.png)
+![An image of my blank desktop](assets/011826_114735.png)
+![An image of my desktop showcasing various terminal utilities](assets/011826_115241.png)
+![An image of my desktop showcasing my riced web browser, file manager, application launcher, and my notificaiton center.](assets/011826_120232.png)
