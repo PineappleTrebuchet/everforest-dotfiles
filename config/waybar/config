@@ -5,12 +5,12 @@
 "modules-left": [
     "idle_inhibitor",
     "sway/workspaces",
-    //"niri/workspaces",
+    "niri/workspaces",
     "sway/scratchpad",
     "tray",
     "sway/mode",
-    "sway/window"
-    //"niri/window"
+    "sway/window",
+    "niri/window"
 ],
 "modules-center": ["clock",],
 "modules-right": [
@@ -117,7 +117,7 @@
     "format-disconnected": "WIFI-DOWN",
     "tooltip-disconnected": false,
     "family": "ipv4",
-    "interval": 1,
+    "interval": 3,
     "on-click": "nm-connection-editor;"
 },
 
@@ -125,7 +125,7 @@
 	"thermal-zone": 0,
 	"format": "{temperatureC}°C",
 	"format-icons":[""],
-	"interval": 30
+	"interval": 3
 },
 
 "backlight": {
