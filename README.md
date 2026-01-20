@@ -1,4 +1,4 @@
-# Personal Dotfiles
+# Everforest Dotfiles
 
 These are sample dotfiles for an Everforest themed Sway setup (with Niri support). They used to be my daily driver before I gave up on modeling them after specific colorschemes altogether. Feel free to use these for inspiration or as a template for your own dotfiles.
 
