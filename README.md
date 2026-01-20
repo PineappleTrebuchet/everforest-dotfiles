@@ -1,6 +1,6 @@
 # Personal Dotfiles
 
-These are the dotfiles for my daily driver! I use EndeavourOS alongside SwayWM (with Niri support), but these should work on any distro. Feel free to use these for inspiration or as a template for your own dotfiles.
+These are sample dotfiles for an Everforest themed Sway setup (with Niri support). They used to be my daily driver before I gave up on modeling them after specific colorschemes altogether. Feel free to use these for inspiration or as a template for your own dotfiles.
 
 Keep in mind that these dotfiles aren't drag-and-drop ready and that this repo is mainly for personal use. There are a couple of absolute paths that require you to manually tweak them (the background in the Sway config comes to mind).
 
