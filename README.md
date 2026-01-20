@@ -29,8 +29,8 @@ I use greetd alongside tuigreet. I highly recommend it if you like the TUI look 
 1. Copy the contents of the `config` folder to `.config`.
 2. The chrome folder is for Firefox custom CSS, and is based on [SimpleFox](https://github.com/migueravila/simplefox). Detailed instructions for installation can be found in their repo.
 3. The contents of the `themes` and `icons` folders go in the `.themes` and `.icons` folders, respectively.
-4. Move `zsh/.zshrc` directly to your home directory. The custom zsh theme goes in `$ZSH/themes/`. 
-5. Tweak the filepaths in the config files.
+4. Move `zsh/.zshrc` directly to your home directory. The custom zsh theme goes in `$ZSH/themes/`.
+5. You may need to manually set the GTK theme. I personally use the GUI nwg-look or dconf-editor to do so.
 6. Presto! You are ready to go.
 
 ## Gallery
